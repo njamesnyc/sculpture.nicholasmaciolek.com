@@ -1,0 +1,26 @@
+﻿body {
+}
+
+h1 {font-size: 2.2rem;; text-transform:uppercase; font-weight:bold;}
+p {margin-bottom: 20px;font-size: 1.6rem;}
+ul li {margin-bottom: 6px;font-size: 1.6rem;}
+
+/* -- Main Window -- */
+.main-window {width: 100%;position: relative; margin-bottom:20px;}
+.main-window img {width: 100%;}
+
+.bottom-window {width: 100%;position: relative; margin-top:40px;}
+.bottom-window img {width: 100%;}
+
+/* -- Description Styles -- */
+.description-window {max-width:1500px; margin:2em auto 0;}
+.description-container {padding:0 3em;}
+.description-container img {width:100%; margin-top:20px;}
+
+/*  -- Responsive Styles -- */
+@media screen and (max-width:797px) {
+    .main-window {margin-bottom:1em;}
+    .bottom-window {margin-top:20px;}
+    .description-container {padding:0 1.75em;}
+    .description-window {margin: 0em auto 1em;}
+}
